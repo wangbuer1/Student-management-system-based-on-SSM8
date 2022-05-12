@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--
+        注意：在ssm整合的项目中，如果在applicationContext.xml文件配置sqlSessionFactory对象时，
+             指定了mapper映射配置文件，那么在mybatis的核心配置文件中就不要在指定mapper文件的位置了
+             否则会产生冲突。
+    -->
+
+<!--    <mappers>-->
+<!--        <mapper resource="com/yanzhen/dao/*.xml"/>-->
+<!--    </mappers>-->
+</configuration>
